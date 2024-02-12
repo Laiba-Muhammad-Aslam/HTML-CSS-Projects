@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Details</title>
+    <script
+      src="https://kit.fontawesome.com/23f33e3aca.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="step-box">
+        <div class="step" style="background-color: rgb(80, 216, 80);"><a href="acc.html">Step 1: ACCOUNT</a></div>
+        <div class="step" style="background-color: rgb(17, 122, 198);"><a href="pdetails.html">Step 2: PERSONAL DETAIL</a></div>
+        <div class="step" style="background-color: rgb(228, 235, 240);"><a href="review.html">Step 3: YOUR REVIEW</a></div>
+    </div>
+      <form method="get">
+        <fieldset>
+          <legend>Personal Details</legend>
+          <label for="name">Firt Name:</label>
+          <input
+            type="text"
+            name="name"
+            id="name" required
+            placeholder="Enter First Name"
+          />
+
+          <label for="lastName">Last Name:</label>
+          <input
+            type="text"
+            name="lastName"
+            id="lastName" required
+            placeholder="Enter Last Name"
+          />
+
+          <label for="cnic">CNIC:</label>
+          <div class="cnic-box">
+              <input type="text" maxlength="1" pattern="[0-9]" required/>
+              <input type="text" maxlength="1" pattern="[0-9]" required/>
+              <input type="text" maxlength="1" pattern="[0-9]" required/>
+              <input type="text" maxlength="1" pattern="[0-9]" required/>
+              <input type="text" maxlength="1" pattern="[0-9]" required/>
+              <input type="text" maxlength="1" pattern="[0-9]" required/>
+              <input type="text" maxlength="1" pattern="[0-9]" required/>
+              <input type="text" maxlength="1" pattern="[0-9]" required/>
+              <input type="text" maxlength="1" pattern="[0-9]" required/>
+              <input type="text" maxlength="1" pattern="[0-9]" required/>
+              <input type="text" maxlength="1" pattern="[0-9]" required/>
+              <input type="text" maxlength="1" pattern="[0-9]" required/>
+              <input type="text" maxlength="1" pattern="[0-9]" required/>
+          </div>
+
+          <label for="link">Social Link:</label>
+          <input type="url" name="link" id="link" placeholder="Enter your Facebook/LinkedIn">
+
+          <div class="buttons">
+            <a href="acc.html" id="back"
+              ><i class="fa-solid fa-backward"></i>Back</a
+            >
+           
+            <a href="review.html" id="next"
+              >Next<i class="fa-solid fa-forward"></i
+            ></a>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

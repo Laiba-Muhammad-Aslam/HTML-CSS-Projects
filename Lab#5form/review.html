@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review</title>
+    <script
+      src="https://kit.fontawesome.com/23f33e3aca.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="step-box">
+        <div class="step" style="background-color: rgb(80, 216, 80);"><a href="acc.html">Step 1: ACCOUNT</a></div>
+        <div class="step" style="background-color: rgb(80, 216, 80);"><a href="pdetails.html">Step 2: PERSONAL DETAIL</a></div>
+        <div class="step" style="background-color: rgb(17, 122, 198);"><a href="review.html">Step 3: YOUR REVIEW</a></div>
+    </div>
+      <form method="get">
+        <fieldset>
+          <legend>Your Review</legend>
+          <label for="media">How did you hear about us?</label>
+          <select>
+            <option value="select">Select your option</option>
+            <option value="Google">Google</option>
+            <option value="FriendCircle">Friend Circle</option>
+            <option value="Advertising">Advertising</option>
+            <option value="Relatives">Relatives</option>
+            <option value="Other">Other</option>
+          </select>
+
+          <label for="revisit">Would you visit again?</label>
+          <div class="options">
+            <input type="radio" name="radio" id="yes" value="yes" />Yes
+            <input type="radio" name="radio" id="no" value="no" />No
+            <input type="radio" name="radio" id="maybe" value="maybe" />Maybe
+          </div>
+
+          <label for="comment">Comment:</label>
+          <textarea name="comment" id="comment">
+Write your comment here</textarea
+          >
+
+          <input type="file" name="file" id="file" />
+
+          <div class="options">
+            <input type="checkbox" name="checkbox" id="checkbox" checked />
+            <p>Sign me up for Email updates</p>
+          </div>
+
+          <div class="buttons">
+            <a href="pdetails.html" id="back"
+              ><i class="fa-solid fa-backward"></i>Back</a
+            >
+            <a id="submit">Submit</a>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
