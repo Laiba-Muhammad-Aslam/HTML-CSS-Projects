@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="assests/Saylani-logo.png" alt="saylani-logo">
+
+    <form method="get">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">First Name:</label>
+            <input type="text" name="name" id="name" placeholder="First Name">
+            <br>
+            <br>
+
+            <label for="Lastname">Last Name:</label>
+            <input type="text" name="Lastname" id="Lastname" placeholder="Last Name">
+            <br>
+            <br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="female" value="f" checked>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="male" value="m">
+            <label for="male">Male</label>
+            <br>
+            <br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob" id="dob">
+            <br>
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Email">
+        </fieldset>
+
+        <fieldset>
+            <legend>Permanant Address:</legend>
+
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city">
+            <br>
+            <br>
+            
+            <label for="country">Country:</label>
+            <input type="text" name="country" id="country">
+            <br>
+            <br>
+
+            <label for="address">Address:</label>
+            <input type="text" name="address" id="address">
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact details:</legend>
+
+            <label for="email">Email::</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <br>
+            
+            <label for="mobile">Mobile:</label>
+            <input type="number" name="mobile" id="mobile">
+            <br>
+            <br>
+
+            <label for="telephone">Telephone:</label>
+            <input type="number" name="telephone" id="telephone">
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Review:</legend>
+
+            <label for="review">How did you here about us?</label>
+            <br>
+            <br>
+            <select name="review" id="review">
+                <option value="facebook">Facebook</option>
+                <option value="instagram">Instagram</option>
+                <option value="linkedIn">LinkedIn</option>
+                <option value="twitter">Twitter</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="visit">Would you visit again?</label>
+            <br>
+            <input type="radio">
+            <label for="yes">Yes</label>
+            <input type="radio">
+            <label for="no">No</label>
+            <br>
+            <br>
+
+            <label for="reviwaboutform">What did you think of this form?</label>
+            <br>
+            <br>
+            <textarea name="reviwaboutform" id="reviwaboutform" cols="20" rows="5"></textarea>
+            <br>
+            <br>
+
+            <label for="upload">Upload your file:</label>
+            <br>
+            <input type="file" name="upload" id="upload">
+            <br>
+            <br>
+
+            <input type="button" value="Upload" id="btn">
+
+        </fieldset>
+    </form>
+</body>
+</html>
